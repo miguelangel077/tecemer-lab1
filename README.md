@@ -33,3 +33,12 @@ Esta sección documenta el pipeline de datos construido en la Semana 2 (Librerí
 python clima.py
 python analisis.py
 ```
+## Cierre de la Unidad I — Semana 3
+
+Herramienta de automatización: organizador.py clasifica y mueve archivos
+de una carpeta en subcarpetas por tipo (Documentos, Imagenes, Videos,
+Comprimidos, Otros), con modo de simulación (--dry-run) mediante argparse.
+
+Uso:
+```bash
+python organizador.py <carpeta> [--dry-run]
