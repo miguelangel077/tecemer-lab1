@@ -2,18 +2,23 @@ black==26.5.1
 certifi==2026.7.22
 charset-normalizer==3.5.1
 click==8.5.0
+colorama==0.4.6
 idna==3.19
+iniconfig==2.3.0
 mypy_extensions==1.1.0
 numpy==2.5.3
 packaging==26.3
 pandas==3.0.5
 pathspec==1.1.1
 platformdirs==4.11.7
+pluggy==1.6.0
 pycodestyle==2.14.0
+Pygments==2.21.0
+pytest==9.1.1
 python-dateutil==2.9.0.post0
 pytokens==0.4.1
 requests==2.34.2
 six==1.17.0
--e git+https://github.com/miguelangel077/tecemer-lab1.git@22cd10b2115065f26f4eb9feacb356e5ebcc9c76#egg=tecemer_lab1
+-e git+https://github.com/miguelangel077/tecemer-lab1.git@22eddf12e7fa4dab63460dd972e2060ad7f591d0#egg=tecemer_lab1
 tzdata==2026.4
 urllib3==2.7.0
