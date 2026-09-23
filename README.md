@@ -42,3 +42,20 @@ Comprimidos, Otros), con modo de simulación (--dry-run) mediante argparse.
 Uso:
 ```bash
 python organizador.py <carpeta> [--dry-run]
+```
+# Laboratorio 04: Clasificador de Lluvia con Keras (Huancayo)
+
+Este laboratorio implementa un perceptrón multicapa (MLP) utilizando TensorFlow/Keras para predecir días lluviosos en la región de Huancayo.
+
+## Estructura de archivos
+- `ampliar_dataset.py`: Consulta el historial de Open-Meteo para ampliar los datos.
+- `preparar_dataset.py`: Limpia, escala datos y genera `dataset_preparado.npz`.
+- `perceptron_sintetico.py`: Red neuronal básica sobre datos sintéticos.
+- `clasificador_lluvia.py`: Modelo baseline (Regresión Logística) y entrenamiento del MLP.
+- `predecir.py`: Carga el modelo guardado (`modelo_lluvia.keras`) para realizar inferencias.
+- `tests/test_preparacion.py`: Pruebas unitarias para las funciones de preparación de datos.
+
+## Ejecución de Pruebas
+Para ejecutar las pruebas automatizadas:
+```bash
+python -m pytest tests/ -v
